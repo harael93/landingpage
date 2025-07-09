@@ -1,0 +1,68 @@
+#header { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: aliceblue; background-color: #1f2937 ; ; padding: 10px; display:flex; justify-content: space-around;
+}
+.logo {font-weight: 800; margin-right: 150px;
+font-size:larger;
+}
+.links { font-size: medium;
+
+}
+ ul {list-style-type: none; 
+     
+}
+li {
+    display: inline-block; margin: 8px;
+}
+
+#herocontainer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+ 
+
+#hero { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: aliceblue; 
+
+background-color: #1f2937 ;
+ 
+padding: 10px; 
+
+padding: 20px;
+padding-left: 80px;
+}
+h1 {
+    max-width: 250px;
+}
+p {
+    max-width: 250px;
+}
+button {
+    max-height: 100px; max-width: 150px; align-self: center;
+    margin-top: 20px;
+}
+img {  
+    max-width: 250px; margin-left: 75px; 
+    
+}
+h2 {text-align: center; font-weight: 700px;}
+#anotherbox {
+     display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.boxes {
+height: 100px; 
+width: 100px;
+border: solid blue; border-width: 2px; text-align: center; 
+
+}
+#subtextbox {
+     display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.subtext {height: 100px; width: 100px;}
+
+
