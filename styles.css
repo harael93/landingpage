@@ -1,5 +1,7 @@
+div
 #header { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color: aliceblue; background-color: #1f2937 ; ; padding: 10px; display:flex; justify-content: space-around;
+color: aliceblue; background-color: #1f2937 ; ; padding: 10px; display:flex; justify-content: space-around; 
+
 }
 .logo {font-weight: 800; margin-right: 150px;
 font-size:larger;
@@ -35,12 +37,19 @@ padding-left: 80px;
 h1 {
     max-width: 250px;
 }
-p {
+.paraone {
     max-width: 250px;
 }
 button {
-    max-height: 100px; max-width: 150px; align-self: center;
-    margin-top: 20px;
+    
+    background-color: #386db8;
+    color: aliceblue;
+    border: solid;
+    border-color: azure;
+    border-width: 1.5px;
+    
+    flex-shrink: 0;
+   border-radius: 4px;
 }
 img {  
     max-width: 250px; margin-left: 75px; 
@@ -52,7 +61,7 @@ h2 {text-align: center; font-weight: 700px;}
     justify-content: space-around;
     align-items: center; 
 }
-.boxes {
+.boxes { margin: 10px;
 height: 100px; 
 width: 100px;
 border: solid blue; border-width: 2px; text-align: center; 
@@ -65,4 +74,42 @@ border: solid blue; border-width: 2px; text-align: center;
 }
 .subtext {height: 100px; width: 100px;}
 
+#quotesection { display: flex; flex-direction: column; align-items: center;
+      background-color: #83ade7; 
+}
+.paratwo { 
+    max-width: 500px; 
+    font-style: italic; font-size: 28px;
+}
 
+.signed {
+    text-align: right; margin-left: 250px;
+}
+#bannerbox { color: aliceblue; margin-left: 200px; margin-right: 200px; border-radius: 16px;
+     display: flex; justify-content: space-around; align-items: center; 
+     background-color: #386db8; max-width: 1000px; padding-bottom: 10px; margin-left: 50px; margin-right: 50px;
+
+
+}
+#banner{  
+
+}
+Footer {text-align: center; background-color: #1f2937; color: aliceblue; margin-top: 20px;
+font-size: 12px; padding: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#header, #herocontainer, #quotesection, footer {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+.boxes {
+    /* ...existing styles... */
+    border-radius: 16px;
+
+
+}
