@@ -85,13 +85,16 @@ border: solid blue; border-width: 2px; text-align: center;
 .signed {
     text-align: right; margin-left: 250px;
 }
+#coverit {
+    display: flex; justify-content: center;
+}
 #bannerbox { color: aliceblue; margin-left: 200px; margin-right: 200px; border-radius: 16px;
      display: flex; justify-content: space-around; align-items: center; 
-     background-color: #386db8; max-width: 1000px; padding-bottom: 10px; margin-left: 50px; margin-right: 50px;
+     background-color: #386db8; width: 1000px; padding-top: 20px; padding-bottom: 20px;
 
 
 }
-#banner{  
+#banner{ flex-shrink: 0; 
 
 }
 Footer {text-align: center; background-color: #1f2937; color: aliceblue; margin-top: 20px;
